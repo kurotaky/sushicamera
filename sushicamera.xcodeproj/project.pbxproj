@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21AF74CB1A9BF4810014A396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF74CA1A9BF4810014A396 /* AppDelegate.swift */; };
+		21AF74CD1A9BF4810014A396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF74CC1A9BF4810014A396 /* ViewController.swift */; };
+		21AF74D01A9BF4810014A396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AF74CE1A9BF4810014A396 /* Main.storyboard */; };
+		21AF74D21A9BF4810014A396 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AF74D11A9BF4810014A396 /* Images.xcassets */; };
+		21AF74D51A9BF4810014A396 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AF74D31A9BF4810014A396 /* LaunchScreen.xib */; };
+		21AF74E11A9BF4810014A396 /* sushicameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF74E01A9BF4810014A396 /* sushicameraTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21AF74DB1A9BF4810014A396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF74BD1A9BF4810014A396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21AF74C41A9BF4810014A396;
+			remoteInfo = sushicamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21AF74C51A9BF4810014A396 /* sushicamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sushicamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AF74C91A9BF4810014A396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AF74CA1A9BF4810014A396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21AF74CC1A9BF4810014A396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21AF74CF1A9BF4810014A396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21AF74D11A9BF4810014A396 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21AF74D41A9BF4810014A396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21AF74DA1A9BF4810014A396 /* sushicameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sushicameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AF74DF1A9BF4810014A396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AF74E01A9BF4810014A396 /* sushicameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushicameraTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21AF74C21A9BF4810014A396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AF74D71A9BF4810014A396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21AF74BC1A9BF4810014A396 = {
+			isa = PBXGroup;
+			children = (
+				21AF74C71A9BF4810014A396 /* sushicamera */,
+				21AF74DD1A9BF4810014A396 /* sushicameraTests */,
+				21AF74C61A9BF4810014A396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21AF74C61A9BF4810014A396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21AF74C51A9BF4810014A396 /* sushicamera.app */,
+				21AF74DA1A9BF4810014A396 /* sushicameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21AF74C71A9BF4810014A396 /* sushicamera */ = {
+			isa = PBXGroup;
+			children = (
+				21AF74CA1A9BF4810014A396 /* AppDelegate.swift */,
+				21AF74CC1A9BF4810014A396 /* ViewController.swift */,
+				21AF74CE1A9BF4810014A396 /* Main.storyboard */,
+				21AF74D11A9BF4810014A396 /* Images.xcassets */,
+				21AF74D31A9BF4810014A396 /* LaunchScreen.xib */,
+				21AF74C81A9BF4810014A396 /* Supporting Files */,
+			);
+			path = sushicamera;
+			sourceTree = "<group>";
+		};
+		21AF74C81A9BF4810014A396 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21AF74C91A9BF4810014A396 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21AF74DD1A9BF4810014A396 /* sushicameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				21AF74E01A9BF4810014A396 /* sushicameraTests.swift */,
+				21AF74DE1A9BF4810014A396 /* Supporting Files */,
+			);
+			path = sushicameraTests;
+			sourceTree = "<group>";
+		};
+		21AF74DE1A9BF4810014A396 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21AF74DF1A9BF4810014A396 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21AF74C41A9BF4810014A396 /* sushicamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AF74E41A9BF4810014A396 /* Build configuration list for PBXNativeTarget "sushicamera" */;
+			buildPhases = (
+				21AF74C11A9BF4810014A396 /* Sources */,
+				21AF74C21A9BF4810014A396 /* Frameworks */,
+				21AF74C31A9BF4810014A396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sushicamera;
+			productName = sushicamera;
+			productReference = 21AF74C51A9BF4810014A396 /* sushicamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21AF74D91A9BF4810014A396 /* sushicameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AF74E71A9BF4810014A396 /* Build configuration list for PBXNativeTarget "sushicameraTests" */;
+			buildPhases = (
+				21AF74D61A9BF4810014A396 /* Sources */,
+				21AF74D71A9BF4810014A396 /* Frameworks */,
+				21AF74D81A9BF4810014A396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21AF74DC1A9BF4810014A396 /* PBXTargetDependency */,
+			);
+			name = sushicameraTests;
+			productName = sushicameraTests;
+			productReference = 21AF74DA1A9BF4810014A396 /* sushicameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21AF74BD1A9BF4810014A396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "mo-fu.org";
+				TargetAttributes = {
+					21AF74C41A9BF4810014A396 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					21AF74D91A9BF4810014A396 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 21AF74C41A9BF4810014A396;
+					};
+				};
+			};
+			buildConfigurationList = 21AF74C01A9BF4810014A396 /* Build configuration list for PBXProject "sushicamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21AF74BC1A9BF4810014A396;
+			productRefGroup = 21AF74C61A9BF4810014A396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21AF74C41A9BF4810014A396 /* sushicamera */,
+				21AF74D91A9BF4810014A396 /* sushicameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21AF74C31A9BF4810014A396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF74D01A9BF4810014A396 /* Main.storyboard in Resources */,
+				21AF74D51A9BF4810014A396 /* LaunchScreen.xib in Resources */,
+				21AF74D21A9BF4810014A396 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AF74D81A9BF4810014A396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21AF74C11A9BF4810014A396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF74CD1A9BF4810014A396 /* ViewController.swift in Sources */,
+				21AF74CB1A9BF4810014A396 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AF74D61A9BF4810014A396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF74E11A9BF4810014A396 /* sushicameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21AF74DC1A9BF4810014A396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21AF74C41A9BF4810014A396 /* sushicamera */;
+			targetProxy = 21AF74DB1A9BF4810014A396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21AF74CE1A9BF4810014A396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21AF74CF1A9BF4810014A396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21AF74D31A9BF4810014A396 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21AF74D41A9BF4810014A396 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21AF74E21A9BF4810014A396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21AF74E31A9BF4810014A396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21AF74E51A9BF4810014A396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sushicamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21AF74E61A9BF4810014A396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sushicamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21AF74E81A9BF4810014A396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sushicameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushicamera.app/sushicamera";
+			};
+			name = Debug;
+		};
+		21AF74E91A9BF4810014A396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sushicameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushicamera.app/sushicamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21AF74C01A9BF4810014A396 /* Build configuration list for PBXProject "sushicamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AF74E21A9BF4810014A396 /* Debug */,
+				21AF74E31A9BF4810014A396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21AF74E41A9BF4810014A396 /* Build configuration list for PBXNativeTarget "sushicamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AF74E51A9BF4810014A396 /* Debug */,
+				21AF74E61A9BF4810014A396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21AF74E71A9BF4810014A396 /* Build configuration list for PBXNativeTarget "sushicameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AF74E81A9BF4810014A396 /* Debug */,
+				21AF74E91A9BF4810014A396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21AF74BD1A9BF4810014A396 /* Project object */;
+}
